@@ -270,6 +270,14 @@ html {
   font-size: 18px;
   font-weight: 300;
   color: rgb(216, 214, 214);
+  /* height: 100px; */
+}
+.equal-spacing {
+  /* padding-bottom: 20p; */
+  height: 125px;
+}
+.projectsButton {
+  transition: all 0.5s ease;
 }
 .projectsButton button {
   padding: 10px;
@@ -278,7 +286,7 @@ html {
   background-color: #111;
   color: white;
   margin: 10px 5px 0;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
 }
 .projectsButton button:hover {
@@ -352,6 +360,11 @@ text.ContributionCalendar-label {
   .aboutLeftSide img {
     height: 350px;
     width: 350px;
+  }
+}
+@media (max-width: 1250px) {
+  .equal-spacing {
+    height: fit-content;
   }
 }
 @media (max-width: 1104px) {
