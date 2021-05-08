@@ -42,7 +42,7 @@ const texts = [
   "I Love Coding.",
   "I am Passionate about building things.",
   "I Love Problem Solving.",
-  "I Love Exploring New Things",
+  "I Love Exploring New Things.",
 ];
 let currentText = [];
 let isRemoving = false;

@@ -131,7 +131,12 @@ html {
   color: white;
   padding-right: 30px;
 }
-
+.homeContent .socialIcons a svg {
+  margin: 5px 5px 0 0;
+  font-size: 30px;
+  color: white;
+  /* padding-right: 30px; */
+}
 .about,
 .projects,
 .contact {
@@ -141,7 +146,8 @@ html {
 
 .about .title,
 .projects .title,
-.contact .title {
+.contact .title,
+.git .title {
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -153,7 +159,8 @@ html {
 
 .about .title::before,
 .projects .title::before,
-.contact .title::before {
+.contact .title::before,
+.git .title::before {
   content: "";
   position: absolute;
   bottom: 15px;
@@ -300,6 +307,12 @@ html {
 .projectsButton button:focus {
   border: 1px solid #111;
   outline: none;
+}
+.git {
+  margin-top: 10px;
+}
+.git .title::before {
+  width: 250px;
 }
 .contact .title::before {
   width: 210px;
@@ -464,7 +477,7 @@ text.ContributionCalendar-label {
     display: none;
   }
   .homeContent .socialIcons a i {
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px 5px 0 0;
   }
 }
@@ -489,6 +502,10 @@ text.ContributionCalendar-label {
     width: 420px;
   }
   .homeContent .socialIcons a i {
+    font-size: 25px;
+    margin: 10px 5px 0 0;
+  }
+  .homeContent .socialIcons a svg {
     font-size: 25px;
     margin: 10px 5px 0 0;
   }
@@ -539,6 +556,20 @@ text.ContributionCalendar-label {
   /* .outerContainer .box p {
     margin: 10px 0;
   } */
+  .about .title,
+  .projects .title,
+  .contact .title,
+  .git .title {
+    font-size: 35px;
+  }
+  .projects .title::before,
+  .contact .title::before,
+  .git .title::before {
+    width: 200px;
+  }
+  .about .title::before {
+    width: 170px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -548,5 +579,17 @@ text.ContributionCalendar-label {
 
   .outerContainer .card .box {
     width: 250px;
+  }
+  .about .title,
+  .projects .title,
+  .contact .title,
+  .git .title {
+    font-size: 30px;
+  }
+  .about .title::before,
+  .projects .title::before,
+  .contact .title::before,
+  .git .title::before {
+    width: 150px;
   }
 }
