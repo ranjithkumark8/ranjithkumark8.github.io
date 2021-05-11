@@ -138,12 +138,14 @@ html {
   /* padding-right: 30px; */
 }
 .about,
-.projects,
-.contact {
+.projects {
   font-family: "Poppins", sans-serif;
   padding: 100px 0;
 }
-
+.contact {
+  font-family: "Poppins", sans-serif;
+  padding: 105px 0;
+}
 .about .title,
 .projects .title,
 .contact .title,
@@ -205,9 +207,21 @@ html {
   text-align: justify;
 }
 .aboutRightSide a {
-  font-weight: 600;
   /* padding: 20px 0; */
-  margin: 50px 0;
+  /* margin: 50px 0; */
+}
+.resumeDownload {
+  font-weight: 600;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px 0px;
+  display: inline-block;
+  color: white;
+  background-color: #101820;
+  border-radius: 2px;
+}
+.resumeDownload span {
+  margin: 0 5px;
 }
 .techStackLogos {
   display: flex;
@@ -227,8 +241,13 @@ html {
   height: 70px;
   /* vertical-align: middle; */
   /* background-color: #101820ff; */
-  border: 1px solid #101820ff;
+  /* border: 1px solid rgba(16, 24, 32, 0.226); */
   padding: 5px;
+  /* box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+   */
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 10px 10px 23px #b0b0b0, -10px -10px 23px #ffffff;
 }
 
 .techStackLogo p {
@@ -270,6 +289,7 @@ html {
 .projectTitle {
   font-size: 22px;
   color: whitesmoke;
+  margin-top: 3px;
   /* text-decoration: underline; */
 }
 .projectsDesc {
@@ -281,7 +301,7 @@ html {
 }
 .equal-spacing {
   /* padding-bottom: 20p; */
-  height: 125px;
+  height: 105px;
 }
 .projectsButton {
   transition: all 0.5s ease;
@@ -310,9 +330,13 @@ html {
 }
 .git {
   margin-top: 10px;
+  padding: 100px 0;
 }
 .git .title::before {
   width: 250px;
+}
+.git .title {
+  margin: 10px 0;
 }
 .contact .title::before {
   width: 210px;
