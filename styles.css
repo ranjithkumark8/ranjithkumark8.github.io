@@ -133,7 +133,7 @@ html {
 }
 .homeContent .socialIcons a svg {
   margin: 5px 5px 0 0;
-  font-size: 30px;
+  font-size: 32px;
   color: white;
   /* padding-right: 30px; */
 }
@@ -504,6 +504,9 @@ text.ContributionCalendar-label {
     font-size: 30px;
     margin: 10px 5px 0 0;
   }
+  .homeContent .socialIcons a svg {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -530,7 +533,7 @@ text.ContributionCalendar-label {
     margin: 10px 5px 0 0;
   }
   .homeContent .socialIcons a svg {
-    font-size: 25px;
+    font-size: 27px;
     margin: 10px 5px 0 0;
   }
 }
